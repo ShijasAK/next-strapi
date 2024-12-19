@@ -1,11 +1,24 @@
 
-Features
-Dynamic Content Updates: Any data changes in Strapi instantly reflect on the frontend.
-Headless CMS Integration: Strapi serves as the backend for content management.
-Next.js Framework: Utilized for its server-side rendering (SSR) and static site generation (SSG) capabilities.
-Scalable Architecture: Clean separation of frontend and backend logic for scalability and maintainability.
+Features :
+
+Dynamic Content Updates: 
+
+Any data changes in Strapi instantly reflect on the frontend.
+
+Headless CMS Integration: 
+
+Strapi serves as the backend for content management.
+
+Next.js Framework: 
+
+Utilized for its server-side rendering (SSR) and static site generation (SSG) capabilities.
+
+Scalable Architecture: 
+
+Clean separation of frontend and backend logic for scalability and maintainability.
 
 Technologies Used :
+
 Frontend: Next.js
 Backend: Strapi Headless CMS
 Database: PostgreSQL
@@ -58,6 +71,8 @@ Create a dynamic website using Next.js.
 Leverage Strapi's content management capabilities for a user-friendly backend.
 Simplify website updates without requiring code changes.
 
-Acknowledgments
+Acknowledgments :
+
 The Next.js Documentation
+
 The Strapi Documentation
