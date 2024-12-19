@@ -1,0 +1,156 @@
+.pricing_sec{ background: #F0ECFD;
+
+    p,li{ color: #151515;}
+
+    @media #{$media-600} {
+        padding-bottom: 35px !important;
+    }
+
+}
+
+.pricing_ul{ margin: 0; padding: 0; display: flex; flex-wrap: wrap; width: 100%;  overflow: hidden;  -webkit-overflow-scrolling: touch;
+   > li{list-style: none;  width: 32.2%;  text-align: center; position: relative;
+        
+        margin-bottom: 35px; 
+        margin-top: 35px; 
+         background: #fff;
+        &.pricing_li_2{
+            width: 35.5%;  border: none; margin-bottom: 0px; margin-top: 0px;
+            display: flex; flex-wrap: wrap; justify-content: center;
+            background: linear-gradient(196deg, #BBA9FF 0.91%, #F5F2FF 53.99%);
+            border-radius: 30px;
+            border: 1px solid #6C38C2;
+            padding: 80px 3% 50px 3%;
+            @media #{$media-600} {
+                border-radius: 25px !important;
+            }
+
+            .pricing_li_block{
+                background: none;
+              
+                // .but_01{ margin-top: auto;}
+                // @media #{$media-600} {
+                //     border-radius: 25px !important;
+                // }
+            }
+        }
+
+        &.pricing_li_1{
+            border-right: 0;
+            border-radius: 30px;
+            position: relative;
+            &::before{ position: absolute; left:-1px; right: 0px; top: -1px; bottom: -1px; content: ""; display: block; z-index: 1; -webkit-border-radius: 30px 0px 0 30px;
+                border-radius:30px 0px 0 30px; 
+                /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,6c38c2+100&0+0,1+87 */
+background: linear-gradient(135deg,  rgba(110,73,199,1) 0%,rgba( 125,185,232,0) 87%,rgba(108,56,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+@media #{$media-600} {
+    border-radius: 25px !important;
+    right: -1px;
+}
+                }
+
+                .pricing_li_block{
+                    -webkit-border-radius: 30px 0px 0 30px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    border-radius:30px 0px 0 30px;
+                    justify-content: center;
+
+                    .but_01{ margin-top: -20px;}
+                    @media #{$media-600} {
+                        border-radius: 25px !important;
+                    }
+                }
+
+                
+        }
+
+        &.pricing_li_3{
+            
+            border-left: 0;
+            border-radius: 30px;
+            position: relative;
+            &::before{ position: absolute; left:0px; right: -1px; top: -1px; bottom: -1px; content: ""; display: block; z-index: 1; -webkit-border-radius: 0 30px 30px 0;
+                border-radius: 0 30px 30px 0;   
+                
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6c38c2+0,7db9e8+99&1+0,0+100 */
+background: linear-gradient(135deg,  rgba(125,185,232,0.01) 0%,rgba( 108,56,194,1) 99%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+@media #{$media-600} {
+    border-radius: 25px !important;
+}
+                }
+
+                .pricing_li_block{
+                    -webkit-border-radius: 0 30px 30px 0;
+                    border-radius: 0 30px 30px 0;
+                }
+
+                @media #{$media-600} {
+                    border-radius: 25px !important;
+                }
+        }
+
+        .pricing_li_block{ background: #f3f6ff; position: relative; z-index: 2; height: 100%;
+             }
+
+             .pricing_li_block{ padding: 45px  7% 50px 7%;
+            
+                @media #{$media-600} {
+                    border-radius: 25px !important;
+                }
+            }
+
+            h3{
+             font-size: 36px;  color: #151515; font-weight: 700; font-family: 'metropolisbold';  margin-bottom: 10px;
+
+             @media #{$media-820} {
+                font-size: 26px;
+             }
+            }
+            p{
+                font-size: 18px;
+            }
+
+            .pricing_txt{
+                h3{ color: #8A3BF8; font-size: 42px; letter-spacing: -1px;
+                    span{ font-weight: 300; font-size:24px; font-family: 'metropolismedium';}
+                    @media #{$media-820} {
+                        font-size: 31px;
+                    }
+
+                }
+            }
+            .pricing_list_style{ margin: 0; padding: 0; width: 100%;
+                li{ list-style: none; text-align: left;}
+            }
+
+            .plan_tag{  font-family: 'gothambold'; position: absolute; top: 0; padding:12px 8%; color: #fff;font-size: 14px; background: #6C38C2; display: block; border-radius: 0px 0px 10px 10px;
+               
+                @media #{$media-600} {
+                    font-size: 12px;
+                }
+           
+            }
+
+            @media #{$media-600} {
+                width: 100% !important; padding-left: 1px; padding-right: 1px;
+            }
+    }
+
+    .pricing_list_style{
+        li{ background: url(../public/images/tick-circle.svg) left center no-repeat; padding: 25px 0px 25px 35px; font-family: 'metropolismedium';  font-size: 16px; border-bottom: solid 1px #D6E0FF;
+        
+            @media #{$media-820} { font-size: 14px; padding: 15px 0px 15px 35px;}
+        }
+    }
+//     @media #{$media-767} {
+//     min-width: 768px;
+
+// }
+
+}
+@media #{$media-767} {
+.pricin_scroll_mob{ overflow-x: auto;}
+}

@@ -1,0 +1,55 @@
+.call_action {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100px;
+    border: solid 1px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 100px;
+  }
+  
+  .call_action svg {
+    width: 48%;
+    height: 48%;
+  }
+  
+  .call_action:hover {
+    background: rgba(255, 216, 1, 0.5);
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .call_action {
+      width: 37px;
+      height: 37px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .call_action {
+      width: 34px;
+      height: 34px;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .mob_hide {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .mob_hide {
+      display: none;
+    }
+  }

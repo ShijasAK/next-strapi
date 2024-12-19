@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.rel8hr.com/
+
+# Sitemaps
+Sitemap: https://www.rel8hr.com/sitemap.xml

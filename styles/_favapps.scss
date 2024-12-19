@@ -1,0 +1,14 @@
+
+ .fav_apps_ul{margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center;
+    li{ list-style: none; margin: 15px 1% 1% 15px; width: 22%; min-height: 170px;
+            background: #F7F7F7; border-radius: 15px; padding: 2%; display: flex; flex-wrap: wrap; align-items: center; justify-content: center;
+
+
+            @media #{$media-600} {
+
+                width: 44%;     min-height: 140px;
+            }
+    }
+}
+
+// @media #{$media-600} {}

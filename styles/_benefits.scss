@@ -1,0 +1,39 @@
+.benefit_ul{ margin: 0; padding: 0; display: flex; flex-wrap: wrap;  justify-content: center;
+
+        font-weight: 600;
+    li{  margin-left: 2%; margin-bottom: 10px; margin-right: 2%; list-style: none; display: flex; align-items: center; color: #151515;  font-size: 20px; font-weight: 600; font-family: "metropolisregular";
+    &::before{ 
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        margin-right: 10px;
+        background: #FECB4B;
+
+        @media #{$media-600} {
+            width: 9px;
+            height: 9px;
+        }
+        
+    }
+
+
+    @media #{$media-820} {
+        font-size: 15px;
+
+    }
+
+    @media #{$media-600} {
+        font-size:13px;
+
+        margin-bottom: 6px;
+    }
+    
+    }
+
+}
+
+.bg_gradient{
+    background: linear-gradient(to left, #f3f6ff, #f3f6ff); background-position: center bottom  ;
+}
