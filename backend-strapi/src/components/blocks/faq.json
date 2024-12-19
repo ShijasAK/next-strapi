@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_blocks_faqs",
+  "info": {
+    "displayName": "Frequently Asked Questions Section",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+   
+    },
+    "contactUsButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "questionsAndAnswers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.faq"
+    }
+  }
+}

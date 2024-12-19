@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_blocks_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "hashtag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logoLink": {
+      "type": "string"
+    },
+    "copyrights": {
+      "type": "string"
+    },
+    "footerOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.nav-bar"
+    },
+    "footerTelephone": {
+      "displayName": "Footer Telephone",
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.footer-telephone"
+    },
+    "footerWhatsapp": {
+      "displayName": "Footer Whatsapp",
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.footer-whatsapp"
+    },
+    "footerEmail": {
+      "displayName": "Footer Email",
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.footer-email"
+    }
+  }
+}

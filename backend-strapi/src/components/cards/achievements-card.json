@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_card_01_achievements_cards",
+  "info": {
+    "displayName": "Achievements Card",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+ 
+    "description": {
+      "type": "text"
+    },
+    "image01": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "image02": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "image03": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_component_faqs",
+  "info": {
+    "displayName": "FAQ",
+    "icon": "discuss"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "text"
+    },
+    "isAnsHidden": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

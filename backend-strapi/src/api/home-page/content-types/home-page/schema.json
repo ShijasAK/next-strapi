@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "homePageComponents": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocks.about-us",
+        "section.ai",
+        "blocks.fav-app",
+        "blocks.form",
+        "section.companies",
+        "section.count",
+        "blocks.benefit",
+        "section.card",
+        "blocks.experience",
+        "blocks.faq",
+        "blocks.footer",
+        "section.header",
+        "section.hero",
+        "section.payroll",
+        "section.grid",
+        "blocks.price-tag",
+        "section.package",
+        "section.transform",
+        "component.featured-blogs"
+      ]
+    }
+  }
+}

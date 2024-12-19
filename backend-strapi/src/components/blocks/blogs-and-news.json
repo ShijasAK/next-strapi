@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_blogs_and_news",
+  "info": {
+    "displayName": "Blogs & News",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "richtext"
+    },
+    "viewAllButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "featuredBlogs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.blog"
+    }
+  }
+}

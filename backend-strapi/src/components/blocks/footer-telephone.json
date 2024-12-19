@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_footer_telephones",
+  "info": {
+    "displayName": "Footer Telephone",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

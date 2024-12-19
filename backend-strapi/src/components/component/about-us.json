@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_component_aboutuses",
+  "info": {
+    "displayName": "AboutUs",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "userImage": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "userName": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "companyLogo": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "feedback": {
+      "type": "text"
+    }
+  }
+}

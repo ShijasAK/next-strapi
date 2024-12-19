@@ -1,0 +1,23 @@
+{"collectionName": "components_section_packages",
+  "info": {
+    "displayName": "Transform Your Organization With Our Feature-Packed HRMS Software Section",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+
+    "pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.grid"
+    }
+  }
+}

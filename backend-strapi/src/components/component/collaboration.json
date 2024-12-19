@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_component_collaborations",
+  "info": {
+    "displayName": "collaboration",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+  
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

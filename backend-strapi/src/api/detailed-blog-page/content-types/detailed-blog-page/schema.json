@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "detailed_blog_pages",
+  "info": {
+    "singularName": "detailed-blog-page",
+    "pluralName": "detailed-blog-pages",
+    "displayName": "Detailed Blog page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "section.detailed-blog-information"
+      ]
+    }
+  }
+}

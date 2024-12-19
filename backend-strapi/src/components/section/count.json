@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_counts",
+  "info": {
+    "displayName": "An intuitive & Powerful HR Software Section",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "countInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.growth"
+    }
+  }
+}

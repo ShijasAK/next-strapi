@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_section_ais",
+  "info": {
+    "displayName": "Elevate Your HR Experience With AI Section",
+    "icon": "message",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "subTitle": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "getStartedButtonLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "aiFeaturesGrid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.grid"
+    }
+  }
+}

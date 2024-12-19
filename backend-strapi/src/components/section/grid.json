@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_section_grids",
+  "info": {
+    "displayName": "The One Solution for Managing Your Organization & Employees Section",
+    "icon": "dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "description": {
+      "type": "string"
+    }, 
+    "reqDemoButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "featuresGrid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.grid"
+    }
+  }
+}

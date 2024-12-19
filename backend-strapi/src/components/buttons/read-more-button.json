@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_buttons_read_more_buttons",
+  "info": {
+    "displayName": "Read More Button",
+    "icon": "exit"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

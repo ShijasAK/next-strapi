@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_component_text_boxes",
+  "info": {
+    "displayName": "textBox",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "text"
+    }
+  }
+}

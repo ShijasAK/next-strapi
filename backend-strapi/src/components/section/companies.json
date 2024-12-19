@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_companies",
+  "info": {
+    "displayName": "Companies That Trust Us Section",
+    "icon": "link"  },
+  "options": {},
+  "attributes": {
+    "trustedCompanies": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.collaboration"
+    },
+    "demo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    }
+  }
+}

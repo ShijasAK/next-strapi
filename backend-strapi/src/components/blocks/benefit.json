@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_blocks_benefits",
+  "info": {
+    "displayName": "Employee Benefits Section",
+    "icon": "layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "description": {
+      "type": "text"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.text-box"
+    },
+    "demo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "image": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

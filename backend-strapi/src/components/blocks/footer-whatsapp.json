@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_footer_whatsapps",
+  "info": {
+    "displayName": "Footer Whatsapp",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

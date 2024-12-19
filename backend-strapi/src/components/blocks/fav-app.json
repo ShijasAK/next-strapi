@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_blocks_fav_apps",
+  "info": {
+    "displayName": "Integrated With Your Favorite Apps Section",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "appImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

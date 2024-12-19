@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_component_detailed_blogs",
+  "info": {
+    "displayName": "Detailed Blog",
+    "icon": "earth",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "blogInfo": {
+      "displayName": "Detailed Blog Information",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.detailed-blog-information"
+    },
+    "linkToHome": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.home-button"
+    },
+    "linkToBlogs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.blog-button"
+    }
+  }
+}

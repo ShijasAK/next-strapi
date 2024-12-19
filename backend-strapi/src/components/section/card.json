@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_cards",
+  "info": {
+    "displayName": "Achievements, Tracking & Celebrate Section",
+    "icon": "chartCircle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card01": {
+      "displayName": "Achievements Card",
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.achievements-card"
+    },
+    "card02": {
+      "displayName": "Accurate Card",
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.accurate-card"
+    },
+    "card03": {
+      "displayName": "Birthday Card",
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.birthday-card"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_blog_tiles",
+  "info": {
+    "displayName": "Blog Tiles",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "date": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "readMore": {
+      "displayName": "Read More Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.read-more-button"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

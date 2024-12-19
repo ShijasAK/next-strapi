@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_blocks_forms",
+  "info": {
+    "displayName": "Book a Demo Section",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "submit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "phonePrefix": {
+      "displayName": "Phone Prefix",
+      "type": "component",
+      "repeatable": true,
+      "component": "component.phone-prefix"
+    },
+    "nameField": {
+      "displayName": "Contact Form Fields",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-fileds.contact-form-fields"
+    },
+    "emailField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-fileds.contact-form-fields"
+    },
+    "messageField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-fileds.contact-form-fields"
+    },
+    "phoneNumberField": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-fileds.contact-form-fields"
+    }
+  }
+}

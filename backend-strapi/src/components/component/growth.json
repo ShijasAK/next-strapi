@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_growths",
+  "info": {
+    "displayName": "growth",
+    "icon": "arrowUp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "integer"
+    },
+    "countTitle": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+       }
+  }
+}

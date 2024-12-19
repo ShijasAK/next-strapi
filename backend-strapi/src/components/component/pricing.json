@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_component_pricings",
+  "info": {
+    "displayName": "pricing",
+    "icon": "priceTag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "planTitle": {
+      "type": "string"
+    },
+    "planDesc": {
+      "type": "text"
+    },
+    "planType": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "isPopular": {
+      "type": "boolean",
+      "default": false
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.text-box"
+    },
+    "book": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    }
+  }
+}

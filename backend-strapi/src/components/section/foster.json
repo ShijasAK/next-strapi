@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_section_fosters",
+  "info": {
+    "displayName": "Foster",
+    "icon": "globe",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fosterTitle": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "fosterDescription": {
+      "type": "text"
+    },
+    "reqDemoButtonLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "imageCarousel": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

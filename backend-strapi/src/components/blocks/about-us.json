@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_about_uses",
+  "info": {
+    "displayName": "What People Are Saying About Us Section",
+    "icon": "user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+       },
+    "feedback01": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.about-us"
+    },
+    "feedback02": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.about-us"
+    },
+    "feedback03": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.about-us"
+    }
+  }
+}

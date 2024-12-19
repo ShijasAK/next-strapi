@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_cards_birthday_cards",
+  "info": {
+    "displayName": "Birthday Card",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image01": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "image02": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

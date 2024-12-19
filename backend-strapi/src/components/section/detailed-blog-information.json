@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_section_detailed_blog_informations",
+  "info": {
+    "displayName": "Detailed Blog Information",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "linkToHome": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.home-button"
+    },
+    "linkToBlogs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.blog-button"
+    },
+    "date": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+        },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

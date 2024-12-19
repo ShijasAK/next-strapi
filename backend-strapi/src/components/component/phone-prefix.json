@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_component_phone_prefixes",
+  "info": {
+    "displayName": "Phone Prefix",
+    "icon": "earth"
+  },
+  "options": {},
+  "attributes": {
+    "prefix": {
+      "type": "integer"
+    }
+  }
+}

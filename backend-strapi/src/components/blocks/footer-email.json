@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_footer_emails",
+  "info": {
+    "displayName": "Footer Email",
+    "icon": "arrowUp"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_component_featured_blogs",
+  "info": {
+    "displayName": "Latest Blogs & News Featured Section",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "viewAll": {
+      "displayName": "View All Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.view-all-button"
+    },
+    "blogTiles": {
+      "displayName": "Blog Tiles",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.blog-tiles"
+    }
+  }
+}

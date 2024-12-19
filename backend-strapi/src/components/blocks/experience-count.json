@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_experience_counts",
+  "info": {
+    "displayName": "experienceCount",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "integer"
+    },
+    "countTitle": {
+      "type": "string"
+    }
+  }
+}

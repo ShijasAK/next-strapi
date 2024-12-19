@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_section_heroes",
+  "info": {
+    "displayName": "Top HR Software in Dubai Section",
+    "icon": "expand",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeroPage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.landing"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "banner_01": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "banner_02": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    } ,
+    "banner_03": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "banner_04": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "banner_05": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "banner_06": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "banner_07": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

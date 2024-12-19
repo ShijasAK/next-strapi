@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_section_payrolls",
+  "info": {
+    "displayName": "Benefits Of A Complete HR & Payroll Platform Section",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "payrollTitle": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+        },
+
+    "description": {
+      "type": "text"
+    },
+    "reqDemoButtonLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.button"
+    },
+    "card01": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.grid"
+    },
+    "card02": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.grid"
+    },
+    "card03": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.grid"
+    }
+  }
+}
